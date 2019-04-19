@@ -3,6 +3,9 @@ import org.apache.kafka.common.Cluster;
 
 import java.util.Map;
 
+/**
+ *
+ */
 public class CustomPartitioner implements Partitioner {
     private static final int PARTITION_COUNT = 50;
 
