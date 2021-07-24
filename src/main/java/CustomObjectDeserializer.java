@@ -8,7 +8,7 @@ import java.util.Map;
  *
  * @param <T> The class the data is to be deserialized into.
  */
-public class CustomObjectDeserializer<T> implements Deserializer {
+public class    CustomObjectDeserializer<T> implements Deserializer {
 
     public Class<T> type;
 
